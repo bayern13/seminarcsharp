@@ -7,7 +7,7 @@
 
 
 
-bool MultipleOfTwoNumbers(int num, int num1)
+bool MultipleOfTwoNumbers(int num, int num1, int num2)
 {
     return num % num1 == 0 && num % num1 == 0;
 
@@ -16,5 +16,5 @@ bool MultipleOfTwoNumbers(int num, int num1)
 Console.WriteLine("Введите число : ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-bool result = MultipleOfTwoNumbers(7, 23);
+bool result = MultipleOfTwoNumbers(number, 7, 23);
 Console.WriteLine(result ? "да" : "нет");
